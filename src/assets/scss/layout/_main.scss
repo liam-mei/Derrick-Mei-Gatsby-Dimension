@@ -6,6 +6,10 @@
 
 /* Main */
 
+	iframe {
+		box-shadow: 5px 5px grey
+	}
+
 	#main {
 		@include vendor('flex-grow', '1');
 		@include vendor('flex-shrink', '1');
