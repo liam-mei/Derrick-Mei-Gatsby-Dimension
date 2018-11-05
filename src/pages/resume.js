@@ -7,24 +7,9 @@ import resume from '../images/resume.pdf'
 
 // import { Document, Page } from 'react-pdf'
 
-const SecondPage = () => (
+const Resume = () => (
   <Layout>
-    {/* <img src="https://resume.creddle.io/resume/6agspcn5hmv" alt="" /> */}
-    {/* <embed
-      src="https://resume.creddle.io/resume/6agspcn5hmv"
-      style={{width: "100vw",height: "100vh",border: "none"}}
-    /> */}
-    <iframe
-      src="https://resume.creddle.io/embed/6agspcn5hmv"
-      width="850"
-      height="1100"
-      seamless
-    />
-
-    {/* <Document file={resume}>
-    <Page pageNumber='1' />
-  </Document> */}
-
+    <div className='headerz'>
     <Link className="button" to="/">
       Home
     </Link>
@@ -33,7 +18,15 @@ const SecondPage = () => (
       <i class="fa fa-download" />
       Download
     </a>
+    </div>
+    <iframe
+      src="https://resume.creddle.io/embed/6agspcn5hmv"
+      width="850"
+      height="1100"
+      seamless
+    />
   </Layout>
 )
 
-export default SecondPage
+export default Resume
+

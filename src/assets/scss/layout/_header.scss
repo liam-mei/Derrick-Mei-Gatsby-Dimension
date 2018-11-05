@@ -6,6 +6,12 @@
 
 /* Header */
 
+.widez {
+	width: 1rem;
+	// border: 3px solid red;
+}
+
+
 	#header {
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
@@ -107,6 +113,9 @@
 
 					&:first-child {
 						border-left: 0;
+					}
+					.about {
+						padding: 0 2.6rem;
 					}
 
 					a {
@@ -260,3 +269,5 @@
 			}
 		}
 	}
+
+	
