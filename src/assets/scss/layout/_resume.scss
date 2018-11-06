@@ -1,10 +1,18 @@
 	iframe {
-		box-shadow: 5px 5px grey
+		box-shadow: 5px 5px grey;
+		// display: flex;
+		// padding-left: 5rem;
     }
 
 	.headerz {
 		display: flex;
 		justify-content: space-between;
 		padding-bottom: 1rem;
-		margin-top: -2rem;
+		margin-top: -1rem;
+	}
+
+	.layoutDiv {
+		// border: 1px solid red;
+		width: 100%;
+		max-width: 850px;;
 	}

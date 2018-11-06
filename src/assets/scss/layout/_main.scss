@@ -6,6 +6,31 @@
 
 /* Main */
 
+.flexSpaceAround {
+	display: flex;
+	justify-content: space-around;
+	// border-bottom: 2px solid grey;
+	padding: 1rem;
+}
+
+.githubButton {
+	padding: 0 3.3rem;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.lambdalogo {
+	max-height: 10rem;
+	max-width: 10rem;
+	margin: 0 auto;
+}
+
+.profilePic {
+	max-width: 100%;
+}
+
 	#main {
 		@include vendor('flex-grow', '1');
 		@include vendor('flex-shrink', '1');
