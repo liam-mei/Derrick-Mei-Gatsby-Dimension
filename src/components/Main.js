@@ -10,6 +10,8 @@ import pic02 from '../images/pic02.svg'
 // import LambdaLogo from '../images/lambdalogo3.png'
 import profilePic from '../images/profilepic.jpg'
 
+import resume from '../images/resume.pdf'
+
 class Main extends React.Component {
   render() {
 

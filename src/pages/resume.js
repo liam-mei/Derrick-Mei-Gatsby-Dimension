@@ -26,6 +26,9 @@ const Resume = () => (
       title="resume"
       seamless
     />
+    <div>xsad;lfkjasd;lfjasdflasj d;flaksj d;flkasj df;la jsdf;lkasj d;</div>
+    <a href={resume}><div>asdf</div></a>
+    <div>asdflak;sdjf;asldkjf;</div>
   </Layout>
 )
 
