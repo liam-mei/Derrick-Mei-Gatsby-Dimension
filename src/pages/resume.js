@@ -23,6 +23,7 @@ const Resume = () => (
       src="https://resume.creddle.io/embed/6agspcn5hmv"
       width="850"
       height="1100"
+      title="resume"
       seamless
     />
   </Layout>

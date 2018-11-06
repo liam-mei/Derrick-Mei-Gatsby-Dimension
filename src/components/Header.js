@@ -14,8 +14,8 @@ const Header = (props) => (
                 for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p> */}
                 <ul className="icons">
                     <li><a href="/resume/" class="icon fa-file-pdf-o"><span class="label">Resume</span></a></li>
-                    <li><a href="https://github.com/Derrick-Mei/" target="_blank" className="icon fa-github"><span className="label">GitHub</span></a></li>
-                    <li><a href="https://www.linkedin.com/in/derrick-mei/" target="_blank" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
+                    <li><a href="https://github.com/Derrick-Mei/" target="_blank" rel="noopener noreferrer" className="icon fa-github"><span className="label">GitHub</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/derrick-mei/" target="_blank" rel="noopener noreferrer" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
                 </ul>
             </div>
         </div>
