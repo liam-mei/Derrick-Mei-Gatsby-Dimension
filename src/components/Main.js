@@ -1,13 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-// import pic01 from '../images/pic01.jpg'
-
 //Falcano Pic
-import pic02 from '../images/pic02.svg'
-// import pic03 from '../images/pic03.jpg'
-
-// import LambdaLogo from '../images/lambdalogo3.png'
+import falcano from '../images/falcano.svg'
+import LambdaLogo from '../images/lambdalogo3.png'
 import profilePic from '../images/profilepic.jpg'
 
 import resume from '../images/resume.pdf'
@@ -22,7 +18,7 @@ class Main extends React.Component {
 
         <article id="projects" className={`${this.props.article === 'projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Projects</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
+          <span className="image main"><img src={falcano} alt="" /></span>
           <div>
 					<h3>Falcano</h3>
 					<p>An app to log your required flight experience to qualify for a pilot license. Users create aircraft and instructors and then
@@ -49,7 +45,7 @@ class Main extends React.Component {
 
         <article id="experience" className={`${this.props.article === 'experience' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Experience</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
+          <span className="image main"><img className="lambdalogo" src={LambdaLogo} alt="" /></span>
           <p>Proficiency with JavaScript, HTML, CSS, LESS, SaSS, React/Redux, Bootstrap, GatsbyJS, Material UI, GSAP, NodeJS, Express,
 					and many more!</p>
 				<h3>Full Stack Web Developer</h3>
