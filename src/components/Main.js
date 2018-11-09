@@ -135,15 +135,15 @@ class Main extends React.Component {
 						projects</li>
 					<li>Hands on experience with client and server testing, paired programming, and CS fundamentals</li>
         </ul> */}
-          <div className="iframe-container">
+          {/* <div className="iframe-container">
             <iframe
               src="https://resume.creddle.io/embed/6agspcn5hmv"
               width="850"
-              height="1100"
+              height="1150"
               title="resume"
               seamless
             />
-          </div>
+          </div> */}
           {/* <Layout> */}
           <object
             data={resume}

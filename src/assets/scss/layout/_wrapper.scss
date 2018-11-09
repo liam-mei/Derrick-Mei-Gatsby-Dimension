@@ -16,7 +16,7 @@
 		width: 100%;
 		padding: 2rem 2rem;
 		z-index: 3;
-		border: 5px solid yellow;
+		// border: 5px solid yellow;
 
 		&:before {
 			content: '';
@@ -24,11 +24,17 @@
 		}
 
 		@include breakpoint(xlarge) {
+			// border: 5px dotted orange;
 			padding: 3rem 2rem;
+			// #resume {
+			// 	border: 10px solid purple;
+			// }
 		}
 
 		@include breakpoint(small) {
+			border: 5px dotted white;
 			padding: 2rem 1rem;
+			// min-width: 900px;
 		}
 
 		@include breakpoint(xsmall) {
