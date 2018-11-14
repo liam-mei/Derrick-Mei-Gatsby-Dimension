@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
-import Layout from '../components/layout'
+// import { Link } from 'gatsby'
+// import Layout from '../components/layout'
 
 //Falcano Pic
 import falcano from '../images/falcano.svg'
-import LambdaLogo from '../images/lambdalogo3.png'
+// import LambdaLogo from '../images/lambdalogo3.png'
 import profilePic from '../images/profilepic.jpg'
 
 import resume from '../images/resume.pdf'
