@@ -24,10 +24,11 @@ const Header = (props) => (
         </div>
         <nav>
             <ul>
-                <li><a href="#no" onClick={() => {props.onOpenArticle('projects')}}> Projects </a></li>
-                <li><a className="about" href="#no" onClick={() => {props.onOpenArticle('about')}}> About</a></li>
-                <li><a className="resume" href="#no" onClick={() => {props.onOpenArticle('resume')}}>Resume</a></li>
-                <li><a href="#no" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
+                <li><a href="#projects" onClick={() => {props.onOpenArticle('projects')}}> Projects </a></li>
+                <li><a className="about" href="#about" onClick={() => {props.onOpenArticle('about')}}> About</a></li>
+                <li className="desktop"><a className="resume" href="#resume" onClick={() => {props.onOpenArticle('resume')}}>Resume</a></li>
+                <li className="mobile"><a className="resume" href="/resume/">Resume</a></li>
+                <li><a href="#contact" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
             </ul>
         </nav>
     </header>

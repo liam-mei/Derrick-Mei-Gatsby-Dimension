@@ -1,13 +1,13 @@
-	iframe {
+	// iframe {
 		// box-shadow: 5px 5px grey;
 		// border: 10px solid gold;
 		// display: flex;
 		// padding-left: 5rem;
-    }
+    // }
 
 	.headerz {
 		display: flex;
-		justify-content: space-between;
+		// justify-content: space-between;
 		padding-bottom: 1rem;
 		margin-top: -1rem;
 	}
@@ -16,4 +16,8 @@
 		// border: 1px solid red;
 		width: 100%;
 		max-width: 850px;;
+	}
+
+	.homeButton {
+		margin-right: 1rem;
 	}

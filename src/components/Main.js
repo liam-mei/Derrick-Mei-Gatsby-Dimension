@@ -145,13 +145,15 @@ class Main extends React.Component {
             />
           </div> */}
           {/* <Layout> */}
+          <div className="objectContainer">
           <object
             data={resume}
             width="850"
             height="1130"
             type="application/pdf"
+            scrolling="yes"
           >
-            <iframe title="resume" src={resume} scrolling="no" seamless>
+            <iframe width="850" title="resume" src={resume} scrolling="yes" seamless>
               This browser does not support PDFs. Please download the PDF to
               view it:
               <a href={resume} download="">
@@ -159,6 +161,7 @@ class Main extends React.Component {
               </a>
             </iframe>
           </object>
+          </div>
           {/* </Layout> */}
           <div>
             {/* <Link className="button" to="/">

@@ -31,13 +31,6 @@
   max-width: 100%;
 }
 
-.iframe-container {
-  width: 100%;
-  height: 1150px;
-  border: 2px dashed orange;
-  display: flex;
-  justify-content: space-around;
-}
 
 #main {
   @include vendor('flex-grow', '1');
@@ -50,7 +43,6 @@
   max-width: 100%;
   z-index: 3;
   display: none;
-  // border: 5px solid green;
 
   article {
     @include vendor('transform', 'translateY(0.25rem)');
@@ -129,11 +121,31 @@
     }
   }
       #resume {
-        width: 958px;
-        min-height: 1345px;
-        border: 5px dotted blue;
-        padding-top: 1.5rem;
+        width: 90vw;
+        max-width: 900px;
+        min-width: 700px;
+        // min-height: 1345px;
+        // border: 5px solid blue;
+        padding: 1.5rem;
       }
+      .objectContainer {
+        // width: 100%;
+        // height: auto;
+        // border: 3px solid green;
+        object {
+          width: 100%;
+          min-width: 650px;
+          min-height: 900px;
+          max-height: 1150px;
+          height: 115vw;
+        }
+        // iframe {
+        //   border: 3px solid green;
+        //   background: green;
+        //   width: 900px;
+        // }
+      }
+
 
 
   @include breakpoint(small) {
@@ -150,26 +162,32 @@
       }
     }
     #resume {
-      min-width: 958px;
-      height: 1345px;
-      position: absolute;
-      right: 0;
-      top: 0;
-      left:-200px;
-      border: 1px solid red;
-      padding-top: 1.5rem;
+      min-width: 100%;
+      // height: 1345px;
+      // position: absolute;
+      // right: 0;
+      // top: 0;
+      // left:-200px;
+      border: 5px dotted blue;
+      // padding-top: 1.5rem;
 	//   padding-left: 70%;
 	// overflow: auto;
+    }
+    object {
+      // width: 900px;
+      // border: 5px solid brown;
+      // height: 1130px
     }
   }
 
   @include breakpoint(xsmall) {
-    // #resume {
+    #resume {
+      border: 5px solid purple;
     //   width: 958px;
     //   height: 1345px;
     //   border: 1px solid green;
     //   padding-top: 1.5rem;
-    // }
+    }
     article {
       @include padding(2rem, 1.5rem, (1rem, 0, 0.5rem, 0));
     }

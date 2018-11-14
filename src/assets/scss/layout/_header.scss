@@ -6,13 +6,10 @@
 
 /* Header */
 
-.widez {
-	width: 1rem;
-	// border: 3px solid red;
-}
-
-
 	#header {
+		.mobile {
+			display: none;
+		}
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
 		@include vendor('align-items', 'center');
@@ -119,7 +116,7 @@
 					}
 
 					.resume {
-						padding: 0 1.9rem;
+						padding: 0 1.95rem;
 						// border: 1px solid red;
 					}
 
@@ -202,6 +199,12 @@
 		}
 
 		@include breakpoint(small) {
+			.desktop {
+				display: none
+			}
+			.mobile {
+				display: initial;
+			}
 			> * {
 				margin-top: 2rem;
 
