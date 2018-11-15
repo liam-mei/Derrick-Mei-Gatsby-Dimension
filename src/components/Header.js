@@ -14,7 +14,7 @@ const Header = (props) => (
                 {/* <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
                 for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p> */}
                 <p>Coffee, Code, and C</p>
-                <li><a href={resume} class="icon fa-file-pdf-o"><span class="label">Resume</span></a></li>
+                {/* <li><a href={resume} class="icon fa-file-pdf-o"><span class="label">Resume</span></a></li> */}
                 {/* <ul className="icons">
                     <li><a href={resume} class="icon fa-file-pdf-o"><span class="label">Resume</span></a></li>
                     <li><a href="/resume/" class="icon fa-file-pdf-o"><span class="label">Resume</span></a></li>
@@ -28,7 +28,7 @@ const Header = (props) => (
                 <li><a href="#projects" onClick={() => {props.onOpenArticle('projects')}}> Projects </a></li>
                 <li><a className="about" href="#about" onClick={() => {props.onOpenArticle('about')}}> About</a></li>
                 <li className="desktop"><a className="resume" href="#resume" onClick={() => {props.onOpenArticle('resume')}}>Resume</a></li>
-                <li className="mobile"><a className="resume" href='/resume/'>Resume2</a></li>
+                <li className="mobile"><a className="resume" href='/resume/'>Resume</a></li>
                 <li><a href="#contact" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
             </ul>
         </nav>

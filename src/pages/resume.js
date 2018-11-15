@@ -26,8 +26,7 @@ const Resume = () => (
       title="resume"
       seamless
     />
-    <div>asd;lfkasjd;flkj;</div>
-    <object
+    {/* <object
       data={resume}
       width="850"
       height="1130"
@@ -40,7 +39,7 @@ const Resume = () => (
           Download PDF
         </a>
       </iframe>
-    </object>
+    </object> */}
   </Layout>
 )
 
