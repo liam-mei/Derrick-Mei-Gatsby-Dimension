@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 
 //Falcano Pic
 import falcano from '../images/falcano.svg'
+import meanMean from '../images/meanmean.png'
 // import LambdaLogo from '../images/lambdalogo3.png'
 import profilePic from '../images/profilepic.jpg'
 
@@ -34,12 +35,50 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects</h2>
+          <h1 className="major">Projects</h1>
+
+          <br />
+          <br />
+          <br />
+
+          <h2>Mean Mean Coffee Bean</h2>
+          <span className="image main">
+            <img src={meanMean} alt="" />
+          </span>
+          <div>
+            <p>
+              A mobile first ecommerce site to sell coffee beans. Users are able
+              to create their own accounts, buy coffee beans and post reviews of
+              the coffee. React was used on the front end, while Java was used
+              in the backend. Stripe was implements to take credit cards while
+              Sendgrid was added to send promotional emails. In addition,
+              several security features such as bcrypt for password hashing and
+              tokens were used
+            </p>
+            <span className="bold">Tech Stack:</span>
+            <span> React, MySQL, Java, Spring, Bcrypt</span>
+            <div className="flexSpaceAround">
+              <button>
+                <a href="https://meanmeancoffeebean.netlify.app/">
+                  View Project
+                </a>
+              </button>
+              <button className="githubButton">
+                <a href="https://github.com/Derrick-Mei/java-shoppingcart">
+                  Github
+                </a>
+              </button>
+            </div>
+          </div>
+          <br />
+          <br />
+          <br />
+
+          <h2>Falcano</h2>
           <span className="image main">
             <img src={falcano} alt="" />
           </span>
           <div>
-            <h3>Falcano</h3>
             <p>
               An app to log your required flight experience to qualify for a
               pilot license. Users create aircraft and instructors and then log
@@ -146,21 +185,27 @@ class Main extends React.Component {
           </div> */}
           {/* <Layout> */}
           <div className="objectContainer">
-          <object
-            data={resume}
-            width="850"
-            height="1130"
-            type="application/pdf"
-            scrolling="yes"
-          >
-            <iframe width="850" title="resume" src={resume} scrolling="yes" seamless>
-              This browser does not support PDFs. Please download the PDF to
-              view it:
-              <a href={resume} download="">
-                Download PDF
-              </a>
-            </iframe>
-          </object>
+            <object
+              data={resume}
+              width="850"
+              height="1130"
+              type="application/pdf"
+              scrolling="yes"
+            >
+              <iframe
+                width="850"
+                title="resume"
+                src={resume}
+                scrolling="yes"
+                seamless
+              >
+                This browser does not support PDFs. Please download the PDF to
+                view it:
+                <a href={resume} download="">
+                  Download PDF
+                </a>
+              </iframe>
+            </object>
           </div>
           {/* </Layout> */}
           <div>
